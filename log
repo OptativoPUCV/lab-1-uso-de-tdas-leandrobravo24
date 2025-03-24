@@ -29,3 +29,12 @@ exercises.c:48:7: error: implicit declaration of function 'pushback' [-Werror=im
 cc1.exe: all warnings being treated as errors
 Compilation failed
 d90e56c
+Sun, Mar 23, 2025 10:49:21 PM: 
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:48:7: error: implicit declaration of function 'pushback' [-Werror=implicit-function-declaration]
+       pushback(L, numero);
+       ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+2f969b8
