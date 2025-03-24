@@ -18,3 +18,14 @@ exercises.c:48:19: note: each undeclared identifier is reported only once for ea
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0a59142
+Sun, Mar 23, 2025 10:48:32 PM: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:48:7: error: implicit declaration of function 'pushback' [-Werror=implicit-function-declaration]
+       pushback(L, numero);
+       ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d90e56c
