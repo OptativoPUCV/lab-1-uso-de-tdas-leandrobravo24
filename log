@@ -38,3 +38,10 @@ exercises.c:48:7: error: implicit declaration of function 'pushback' [-Werror=im
 cc1.exe: all warnings being treated as errors
 Compilation failed
 2f969b8
+Sun, Mar 23, 2025 10:54:33 PM: 
+ exercises.c | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file a.out: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation failed
+644622e

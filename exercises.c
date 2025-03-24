@@ -45,7 +45,7 @@ List* crea_lista() {
    List* L = create_list();
    for(int i = 0; i<10 ;i++) {
       int* numero = (int*) malloc(sizeof(int));
-      pushback(L, numero);
+      pushBack(L, numero);
    }
    return L;
 }
@@ -75,12 +75,6 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
-   while(first(L) != NULL){
-      if (*(int*)first(L) == elem)
-      {
-         popFront(L);
-      }
-   }
 }
 
 /*
