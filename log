@@ -71,3 +71,9 @@ Sun, Mar 23, 2025 11:03:44 PM:
  tests:  3|2
 total_score: 40/70
 fede500
+Sun, Mar 23, 2025 11:08:31 PM: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  4|1
+total_score: 50/70
+0e09605
