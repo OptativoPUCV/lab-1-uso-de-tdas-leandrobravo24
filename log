@@ -59,3 +59,9 @@ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot ope
 collect2.exe: error: ld returned 1 exit status
 Compilation failed
 fe80575
+Sun, Mar 23, 2025 11:02:31 PM: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|3
+total_score: 30/70
+27ae4ee
