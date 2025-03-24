@@ -77,3 +77,18 @@ Sun, Mar 23, 2025 11:08:31 PM:
  tests:  4|1
 total_score: 50/70
 0e09605
+Sun, Mar 23, 2025 11:12:09 PM: 
+ exercises.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:120:30: error: 'caracter' undeclared (first use in this function)
+       if(cadena[i] == '(' || caracter == '{' || caracter == '['){
+                              ^~~~~~~~
+exercises.c:120:30: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:132:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+503ea74
