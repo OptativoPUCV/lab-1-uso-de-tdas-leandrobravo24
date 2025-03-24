@@ -1,0 +1,20 @@
+Sun, Mar 23, 2025 10:47:12 PM: 
+In file included from test.c:5:0:
+exercises.c: In function 'crea_lista':
+exercises.c:47:7: error: expected expression before 'int'
+       int* numero = (int*) malloc(sizeof(int));
+       ^~~
+exercises.c:46:4: error: this 'for' clause does not guard... [-Werror=misleading-indentation]
+    for(int i = 0; i<10 ;i++)
+    ^~~
+exercises.c:48:7: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+       pushback(L, numero);
+       ^~~~~~~~
+exercises.c:48:7: error: implicit declaration of function 'pushback' [-Werror=implicit-function-declaration]
+exercises.c:48:19: error: 'numero' undeclared (first use in this function)
+       pushback(L, numero);
+                   ^~~~~~
+exercises.c:48:19: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+0a59142
